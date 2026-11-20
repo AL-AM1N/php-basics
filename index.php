@@ -50,3 +50,10 @@ class User {
 $user = new User("Amin");
 echo $user->name . "\n"; // here "->" this sign is a object operator
 
+if($project["stars"] >= 50 ) {
+    echo "Famous project\n";
+} elseif ($project["stars"] >= 10){
+    echo "Popular projecrt\n";
+} else {
+    echo "New project\n";
+}

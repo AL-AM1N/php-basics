@@ -37,3 +37,12 @@ class User {
 const user = new User("Amin");
 console.log(user.name);
 
+//* 4. Conditional operation
+
+if (project.stars >= 50) {
+  console.log("Famous project");
+} else if (project.stars >= 10){
+  console.log("Popular project");
+} else {
+  console.log("New project");
+}
