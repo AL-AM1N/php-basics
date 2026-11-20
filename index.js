@@ -46,3 +46,13 @@ if (project.stars >= 50) {
 } else {
   console.log("New project");
 }
+
+//* 5. Static method: new object na baniye class thekei direct call kora jay
+
+class Project {
+  static create (title) {
+    return "Created" + title;
+  }
+}
+
+console.log(Project.create("Portfolio"));

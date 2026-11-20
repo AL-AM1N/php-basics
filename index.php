@@ -57,3 +57,13 @@ if($project["stars"] >= 50 ) {
 } else {
     echo "New project\n";
 }
+
+//* 5. scope resolution operator: class theke direct call korte use hoy
+
+class Project {
+    public static function create ($title){
+        return "Created" . $title;
+    }
+}
+
+echo Project::create("Portfolio") . "\n";
