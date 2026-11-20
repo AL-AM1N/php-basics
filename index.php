@@ -29,7 +29,7 @@ $project = [
 echo $project["title"] . "\n";
 
 // foreach loop
-foreach ($skills as skill) {
+foreach ($skills as $skill) {
     echo $skill . "\n";
 }
 
